@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
   put "new_value_array"
   smallest_value=new_value_array[0]
 
-  return name_hash.key(smallest_value)
+  # name_hash.key(smallest_value)
 end
