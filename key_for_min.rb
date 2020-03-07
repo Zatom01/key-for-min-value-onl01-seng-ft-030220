@@ -9,5 +9,5 @@ def key_for_min_value(name_hash)
   new_value_array.sort
   smallest_value=new_value_array[0]
 
-  name_hash.key(smallest_value)
+  return name_hash.key(smallest_value)
 end
