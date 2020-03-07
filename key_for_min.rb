@@ -7,5 +7,7 @@ def key_for_min_value(name_hash)
     new_value_array<<value
   end
   new_value_array.sort
-  put "Smallest value is #{new_value_array[0]}
+  smallest_value=new_value_array[0]
+
+  name_hash.key(smallest_value)
 end
