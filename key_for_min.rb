@@ -6,9 +6,8 @@ def key_for_min_value(name_hash)
   name_hash.each do |name,value|
     new_value_array<<value
   end
-  new_value_array.sort
-  put "new_value_array"
-  smallest_value=new_value_array[0]
-
-  # name_hash.key(smallest_value)
+  new_sorted=(new_value_array).sort
+  smallest_value=new_sorted.first
+  name_hash.key(smallest_value)
+  
 end
